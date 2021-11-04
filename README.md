@@ -42,5 +42,10 @@ This will bring up a Discord modal telling you which server to put the bot in, a
 
 After this, the bot should be in your server!
 
+## Adding Commands & Events
+There are `command.template.js` and  `event.template.js` files located in `./src/commands/` and `./src/events` respectively.
+These files contain a template for adding new commands and events to the bot.
+Simply put your command / event logic within the `run` function, and the bot will automatically assign them on the next restart.
+
 ## License
 You are free to use this project under the terms defined in the MIT License (included in `LICENSE` file).
