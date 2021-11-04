@@ -1,0 +1,19 @@
+const Discord = require('discord.js');
+const Command = require('../structures/Command.js');
+
+module.exports = new Command({
+
+    name: 'new-command',
+    description: 'A template command.',
+    usage: 'new-command <arg1> <arg2> <arg3>',
+    // a full list of permissions can be found here:
+    // https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=s-FLAGS
+    permission: Discord.Permissions.FLAGS.SEND_MESSAGE,
+
+    async run(message, args, client) {
+
+        return message.channel.send('This is a test command.');
+
+    }
+
+});

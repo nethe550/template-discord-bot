@@ -1,0 +1,10 @@
+const Event = require('../structures/Event.js');
+
+// a full list of event types can be found here:
+// https://discord.js.org/#/docs/main/stable/typedef/WSEventType
+// (make sure to use event types in camelCase if in string format)
+module.exports = new Event('guildCreate', (client, message) => {
+
+    return message.channel.send('Event \'guildCreate\' has been recieved.');
+
+});

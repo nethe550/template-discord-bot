@@ -1,0 +1,9 @@
+{
+    "bot": {
+        "token": "<YOUR_BOT_TOKEN_HERE>",
+        "prefix": "~"
+    },
+    "app": {
+        "tableWidth": 32
+    }
+}
