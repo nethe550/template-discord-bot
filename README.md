@@ -2,7 +2,7 @@
 A template Discord bot for Discord.js v13.
 
 ## Setup
-To run Nimble you will need to install [Node.js](https://nodejs.org/en/).
+To run this bot you will need to install [Node.js](https://nodejs.org/en/).
 
 ### Bot Setup
 
